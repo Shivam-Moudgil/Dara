@@ -1,0 +1,76 @@
+@import "../../styles/responsive.scss";
+
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.358);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    
+    
+
+    .logo{
+        margin-left: 20px;
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+    }
+
+.icons{
+    display: flex;
+    gap:20px;
+   
+font-size: 25px;
+align-items: center ;
+.react-icons{
+    cursor: pointer;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+  input{
+    padding: 5px;
+} 
+}
+
+
+.notification{
+    position: relative;
+    transition: all 1s;
+    span{
+        position: absolute;
+        background: red;
+        top:-10px;
+        right: -10px;
+        width: 20px;
+        font-size: 16px;
+        text-align: center;
+        height: 20px;
+        border-radius: 50%;
+        transform: scale(1.1);
+    }
+}
+
+.profile_img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:0 20px;
+    img{
+width: 40px;
+height: 37px;
+border-radius: 50%;
+    }
+    p{
+        font-size: medium;
+    }
+}
+
+}
+
+
+}
